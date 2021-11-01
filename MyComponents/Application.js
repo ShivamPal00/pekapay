@@ -25,8 +25,21 @@ const Applications = () => {
                             <p className="mt-2 text-gray-600 text-sm">
                                 You can&#x27;t buy your future, but you can do it. Money is nothing, you&#x27;r everything.
                             </p>
-
-
+                        </div>
+                    </div>
+                    <div className="flex max-w-md bg-white shadow-lg rounded-lg overflow-hidden mt-3">
+                        <div className="w-1/3 bg-cover bg-landscape">
+                            <div style={{textAlign:"center",}} className="mt-5">
+                           <FontAwesomeIcon style={{fontSize:"3rem",}} icon={faMobile}></FontAwesomeIcon>
+                           </div>
+                        </div>
+                        <div className="w-2/3 p-4">
+                            <h1 className="text-gray-900 font-bold text-2xl">
+                                PekaPay
+                            </h1>
+                            <p className="mt-2 text-gray-600 text-sm">
+                                You can&#x27;t buy your future, but you can do it. Money is nothing, you&#x27;r everything.
+                            </p>
                         </div>
                     </div>
 
