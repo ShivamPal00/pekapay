@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/home.module.css'
+
 
 export default function Home() {
   return (
@@ -13,9 +13,17 @@ export default function Home() {
        
       </Head>
 
-      <button type="button" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 md:from-blue-500 md:focus:from-blue-700">
-  Focus me
-</button>
+      {/* <div
+  class="
+    w-full
+   h-100%
+    bg-gradient-to-r
+    from-pink-500
+    via-red-500
+    to-yellow-500
+    background-animate
+  "
+></div> */}
     </div>
   )
 }
