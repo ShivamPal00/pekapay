@@ -2,6 +2,48 @@ import Head from 'next/head'
 
 
 export default function Home() {
+  if (process.browser){
+  var canvas = document.querySelector('canvas');
+var ctx = canvas.getContext('2d');
+
+
+function Pixel( x, y ) {
+  this.x = x;
+  this.y = y;
+  this.hue = Math.floor( Math.random() * 360 );
+  var direction = Math.random() > 0.5 ? -1 : 1;
+  this.velocity = ( Math.random() * 30 + 20 ) * 0.01 * direction;
+}
+
+Pixel.prototype.update = function() {
+  this.hue += this.velocity;
+};
+
+Pixel.prototype.render = function( ctx ) {
+  var hue = Math.round( this.hue );
+  ctx.fillStyle = 'hsl(' + hue + ', 100%, 50% )';
+  ctx.fillRect( this.x, this.y, 1, 1 );
+}
+
+var pixels = [
+  new Pixel( 0, 0 ),
+  new Pixel( 1, 0 ),
+  new Pixel( 0, 1 ),
+  new Pixel( 1, 1 ),
+];
+
+function animate() {
+  pixels.forEach( function( pixel ) {
+    pixel.update();
+    pixel.render( ctx );
+  });
+  requestAnimationFrame( animate );
+}
+
+animate();
+}
+  
+
   return (
     <div>
       <Head>
@@ -12,18 +54,8 @@ export default function Home() {
     />
        
       </Head>
-
-      {/* <div
-  class="
-    w-full
-   h-100%
-    bg-gradient-to-r
-    from-pink-500
-    via-red-500
-    to-yellow-500
-    background-animate
-  "
-></div> */}
+    <div>  <canvas  className="h-screen w-full "width="2" height="2"></canvas></div>
+     
     </div>
   )
 }
