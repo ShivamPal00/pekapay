@@ -1,4 +1,8 @@
 import style from "../styles/Home.module.css"
+import wow from '../wow.png'
+import Image from 'next/image'
+
+
 const Nav1 = () => {
     return (
         <div className={style.intro}>
@@ -58,21 +62,23 @@ const Nav1 = () => {
 		
 		</nav>
             </div>
-			<div className="container">
+			<div className="container ">
             {/* <div className="grid grid-cols-2 p-4 mt-8">  */}
-			<div className="flex"> 
+			<div className="flex mt-20"> 
               <div className="mx-auto">
-                   <div className="p-4 ml-5 text-left text-black1 text-8xl z-n1 opacity-80">
+                   <div className="p-4 ml-9 text-left text-black1 text-8xl z-n1 opacity-80">
                         <h1>Payments</h1>
                          <h1>Infrastructure</h1>  {/* #3a3a3a */}
                         <h1>for the internet</h1>
                     </div>
-                    <p className="text-xl m-4 max-w-screen-sm ">
+                    <p className="text-xl m-6 ml-12 max-w-screen-sm ">
                           Millions of businesses of all sizes—from startups to large enterprises—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.
                     </p>
                 </div>
                     
-                <div></div>
+                <div>
+				<Image src={wow} alt="..." width="600" height="530" />
+				</div>
              </div>
             </div>
         </div>
