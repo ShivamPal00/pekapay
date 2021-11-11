@@ -1,4 +1,8 @@
 import Head from 'next/head'
+import Footer from '../MyComponents/Footer'
+import Application from '../MyComponents/Application'
+import Nav1 from '../MyComponents/Nav1';
+// import '../styles/globals.css'
 
 
 export default function Home() {
@@ -10,20 +14,13 @@ export default function Home() {
       name="description"
       content="TextUtils is a utility which can be used to manipulate your text in the way you want."
     />
-       
-      </Head>
+    </Head>
 
-      {/* <div
-  class="
-    w-full
-   h-100%
-    bg-gradient-to-r
-    from-pink-500
-    via-red-500
-    to-yellow-500
-    background-animate
-  "
-></div> */}
+    <Nav1/>
+    <Application />
+    <Footer/>
+
+
     </div>
   )
 }
