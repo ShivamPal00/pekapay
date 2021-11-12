@@ -18,6 +18,36 @@
     background-position: 100% 50%;
   }
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+.custom-shape-divider-bottom-1629732886 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629732886 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1629732886 .shape-fill {
+  fill: #0A2540;
+}
+
 /* html,
 body {
   padding: 0;
