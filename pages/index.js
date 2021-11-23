@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Footer from '../MyComponents/Footer'
 import Application from '../MyComponents/Application'
+import Navbar from '../MyComponents/Navbar';
 import Nav1 from '../MyComponents/Nav1';
 // import '../styles/globals.css'
 
@@ -16,7 +17,7 @@ export default function Home() {
     />
     </Head>
 
-    <Nav1/>
+    <Nav1 />
     <Application />
     <Footer/>
 

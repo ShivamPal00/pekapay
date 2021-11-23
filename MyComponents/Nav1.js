@@ -63,9 +63,11 @@ const Nav1 = () => {
 		
 		</nav>
             </div>
-			<div className="container ">
+			
             {/* <div className="grid grid-cols-2 p-4 mt-8">  */}
-			<div className="flex mt-20"> 
+		
+            </div>
+			<div className=" blah flex "> 
               <div className="mx-auto">
                    <div className="p-4 ml-9 text-left text-black1 text-8xl z-n1 opacity-80">
                         <h1>Payments</h1>
@@ -81,9 +83,8 @@ const Nav1 = () => {
 				<Image src={wow} alt="..." width="600" height="530" />
 				</div>
              </div>
-            </div>
-        </div>
-		<div className="  custom-shape-divider-bottom-1629732886">
+       
+		{/* <div className="  custom-shape-divider-bottom-1629732886">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +96,7 @@ const Nav1 = () => {
               className="shape-fill"
             ></path>
           </svg>
-        </div>
+        </div> */}
         </div>
     )
 }
