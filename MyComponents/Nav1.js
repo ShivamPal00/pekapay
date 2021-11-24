@@ -21,17 +21,17 @@ const Nav1 = () => {
 							</a>
 						</div>
 					
-						<div className="hidden md:flex items-center space-x-1">
-							<a href="" className="py-4 px-2 text-white border-b-4 border-green-500 font-semibold ">Home</a>
-							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Services</a>
-							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">About</a>
-							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Contact Us</a>
+						<div className="hidden  md:flex items-center space-x-1">
+							<a href="" className="py-2 px-2 text-white   hover:bg-gray-200 rounded hover:text-gray-900   font-semibold ">Home</a>
+							<a href="" className="py-2 px-2 text-white font-semibold   hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">Services</a>
+							<a href="" className="py-2 px-2 text-white font-semibold  hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">About</a>
+							<a href="" className="py-2 px-2 text-white font-semibold  hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">Contact Us</a>
 						</div>
 					</div>
 					
 					<div className="hidden md:flex items-center space-x-3 ">
-						<a href="" className="py-2 px-2 font-medium text-white rounded hover:bg-green-500 hover:text-white transition duration-300">Log In</a>
-						<a href="" className="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300">Sign Up</a>
+						<a href="" className="py-2 px-2 font-medium text-white  hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">Log In</a>
+						<a href="" className="py-2 px-2 font-medium text-white  hover:bg-gray-200 rounded hover:text-gray-900 transition duration-300">Sign Up</a>
 					</div>
 				
 					<div className="md:hidden flex items-center">

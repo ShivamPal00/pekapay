@@ -5,7 +5,7 @@ export default function Footer() {
         <div  >
         
            <footer class="text-gray-600  body-font bg-gray-100">
-  <div class="container px-5 py-24 ml-56 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col ">
+  <div class="container px-5 py-24 ml-5 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col ">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
