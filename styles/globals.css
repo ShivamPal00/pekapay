@@ -68,3 +68,25 @@ a {
     position: relative;
     bottom: 550px;
 }
+
+.img{
+  position: relative;
+  bottom: 100px;
+  margin-top: 0;
+  z-index: 2;
+}
+
+.header{
+  margin: 0 auto;
+  font-size: 600%;
+  line-height: 90%;
+  font-weight: 600;
+  letter-spacing: -0.3rem;
+}
+
+
+@media screen and (max-width:972px) {
+    .img{
+      display: none;
+    }
+}

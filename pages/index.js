@@ -17,7 +17,7 @@ export default function Home() {
     />
     </Head>
 
-    <Nav1 />
+    <Navbar />
     <Application />
     <Footer/>
 
