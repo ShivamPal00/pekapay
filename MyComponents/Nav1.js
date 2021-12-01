@@ -23,7 +23,7 @@ const Nav1 = () => {
 					
 
 						<div style={{marginLeft:"10rem"}} className="hidden md:flex items-center space-x-5">
-							<a href="" className="py-4 px-2 text-white border-b-4 border-green-500 font-semibold ">Products</a>
+							<a href="" className="py-4 px-2 text-white border-b-4   ">Products</a>
 							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Use Cases</a>
 							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Developers</a>
 							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Company</a>
