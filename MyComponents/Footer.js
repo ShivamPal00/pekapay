@@ -8,9 +8,7 @@ export default function Footer() {
   <div class="container px-5 py-24 ml-5 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col ">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-pink-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
+      <img src="logo.jpeg" alt="Logo" className="h-10 rounded w-20 " />
         <span class="ml-3 text-xl">PekaPay</span>
       </a>
       <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
