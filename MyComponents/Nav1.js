@@ -12,7 +12,7 @@ const Nav1 = () => {
             <nav className="text-white">
 			<div className="max-w-6xl mx-auto px-4">
 				<div className="flex justify-between">
-					<div className="flex space-x-7">
+					<div className="flex space-x-7 w-100">
 						<div>
 							
 							<a href="#" className="flex items-center py-4 px-2">
@@ -21,11 +21,14 @@ const Nav1 = () => {
 							</a>
 						</div>
 					
-						<div className="hidden  md:flex items-center space-x-1">
-							<a href="" className="py-2 px-2 text-white   hover:bg-gray-200 rounded hover:text-gray-900   font-semibold ">Home</a>
-							<a href="" className="py-2 px-2 text-white font-semibold   hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">Services</a>
-							<a href="" className="py-2 px-2 text-white font-semibold  hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">About</a>
-							<a href="" className="py-2 px-2 text-white font-semibold  hover:bg-gray-200 rounded hover:text-gray-900  transition duration-300">Contact Us</a>
+
+						<div style={{marginLeft:"10rem"}} className="hidden md:flex items-center space-x-5">
+							<a href="" className="py-4 px-2 text-white border-b-4 border-green-500 font-semibold ">Products</a>
+							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Use Cases</a>
+							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Developers</a>
+							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Company</a>
+							<a href="" className="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Pricing</a>
+
 						</div>
 					</div>
 					
@@ -69,34 +72,24 @@ const Nav1 = () => {
             </div>
 			<div className=" blah flex "> 
               <div className="mx-auto">
-                   <div className="p-4 ml-9 text-left text-black1 text-8xl z-n1 opacity-80">
-                        <h1>Payments</h1>
-                         <h1>Infrastructure</h1>  {/* #3a3a3a */}
-                        <h1>for the internet</h1>
+                   <div className=" text-black1 m-9 ">
+                        <p className="header">
+							Payments <br />
+							Infrastructure<br />
+							for the internet<br />
+						</p>
                     </div>
                     <p className="text-xl m-6 ml-12 max-w-screen-sm ">
                           Millions of businesses of all sizes—from startups to large enterprises—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.
                     </p>
                 </div>
                     
-                <div>
+                <div className="img">
 				<Image src={wow} alt="..." width="600" height="530" />
 				</div>
              </div>
        
-		{/* <div className="  custom-shape-divider-bottom-1629732886">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              className="shape-fill"
-            ></path>
-          </svg>
-        </div> */}
+		
         </div>
     )
 }
